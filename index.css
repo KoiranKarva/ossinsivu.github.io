@@ -181,9 +181,10 @@ p {
 
 
 
+
 #pv {
   top: -450px;
-  animation: pva 3s;
+  animation: pva 10s;
   animation-iteration-count: infinite;
   position: relative;
 }
@@ -192,29 +193,68 @@ p {
 
 
 @keyframes pva {
-  from {left: -1600px;}
-  to {left: 2500px;}
+  from {left: -2200px;}
+  to {left: 7000px;}
 }
 
 
-  /*0%  {left:-1000px;}
-  5%  {left:0px;}
-  10% {left:100px;}
-  15% {left:200px;}
-  20% {left:300px;}
-  25% {left:400px;}
-  30% {left:500px;}
-  35% {left:600px;}
-  40% {left:700px;}
-  45% {left:800px;}
-  50% {left:900px;}
-  55% {left:1000px;}
-  60% {left:1100px;}
-  65% {left:1200px;}
-  70% {left:1300px;}
-  75% {left:1400px;}
-  80% {left:1500px;}
-  85% {left:1600px;}
-  90% {left:1700px;}
-  95% {left:1800px;}
-  100% {left:1900px;}*/
+
+
+
+#pv2 {
+  top: -450px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  animation: pva2 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+
+
+
+@keyframes pva2 {
+  from {left: 7000px;}
+  to {left: -3200px;}
+}
+
+
+
+
+
+
+#poliisi {
+  top: -450px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  animation: poliisi 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+
+
+
+@keyframes poliisi {
+  from {left: -3700px;}
+  to {left: 5000px;}
+}
+
+
+
+
+
+#poliisi2 {
+  top: -450px;
+  animation: poliisi2 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+
+
+
+@keyframes poliisi2 {
+  from {left: 10000px;}
+  to {left: -3200px;}
+}
