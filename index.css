@@ -20,19 +20,19 @@
   }
 }
 
-/*body {
+body {
   -webkit-animation: bgcolor 2s infinite;
   animation: bgcolor 1s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
-*/
 
 
 
 
 
-/*body {
+
+body {
   background-color: #333;
   font-family: 'Luckiest Guy', cursive;
   font-size: 35px;
@@ -44,7 +44,7 @@ path {
 
 text {
   fill: #FF9800;
-}*/
+}
 
 
 h1 span {
@@ -53,48 +53,76 @@ h1 span {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 2000px;
   width: 50px;
-  left: 50;
-  top: 50;
+  left: 500;
+  top: 500;
   position: absolute;
   }
   .c1 {
-  transform: rotate(6deg);
+  transform: rotate(340deg);
   color: violet;
+  left: 41.5%;
+  top: 10px;
+  position: absolute;
   }
   .c2 {
-  transform: rotate(12deg);
+  transform: rotate(346deg);
   color: indigo;
+  left: 42%;
+  top: 10px;
+  position: absolute;
   }
   .c3 {
-  transform: rotate(18deg);
+  transform: rotate(352deg);
   color: blue;
+  left: 43%;
+  top: 10px;
+  position: absolute;
   }
   .c4 {
-  transform: rotate(24deg);
+  transform: rotate(358deg);
   color: green;
+  left: 44%;
+  top: 10px;
+  position: absolute;
   }
   .c5 {
-  transform: rotate(30deg);
+  transform: rotate(4deg);
   color: yellow;
+  left: 44.5%;
+  top: 10px;
+  position: absolute;
   }
   .c6 {
-  transform: rotate(36deg);
+  transform: rotate(12deg);
   color: orange;
+  left: 44.5%;
+  top: 10px;
+  position: absolute;
   }
   .c7 {
-  transform: rotate(43deg);
+  transform: rotate(16deg);
   color: red;
+  left: 45.5%;
+  top: 10px;
+  position: absolute;
   }
   .c8 {
-  transform: rotate(48deg);
+  transform: rotate(22deg);
   color: purple;
+  left: 46%;
+  top: 10px;
+  position: absolute;
   }
 
-
+/*48*/
 
 
 
 h2 {
+  font-size: 750px;
+}
+
+h3 {
   font-size: 500px;
 }
 
@@ -102,10 +130,10 @@ p {
   font-size: 100px;
 }
 
+
 #ampari {
   height: 1000px;
   width: 1000px;
-  margin: -60px 0 0 150px;
   -webkit-animation: spin 1s linear infinite;
   -moz-animation: spin 1s linear infinite;
   animation: spin 1s linear infinite;
