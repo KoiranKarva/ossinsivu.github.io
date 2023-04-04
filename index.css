@@ -115,7 +115,7 @@ h2 {
 }
 
 h3 {
-  font-size: 350px;
+  font-size: 100px;
 }
 
 p {
@@ -126,8 +126,8 @@ p {
 
 #ampari {
   height: 1000px;
-  width: 3000px;
-  margin-left: 10x;
+  width: 1000px;
+  margin-left: 3000;
   -webkit-animation: spin 2s linear infinite;
   -moz-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
@@ -146,4 +146,33 @@ p {
 @keyframes spin{
   100%{-webkit-transform: rotateX(360deg);}
   /*100%{-webkit-transform: rotatex(360deg);}*/
+}
+
+
+
+
+
+#griffin {
+  height: 1000px;
+  margin-top: 10x;
+  position: absolute;
+  -webkit-animation: spin1 2s linear infinite;
+  -moz-animation: spin1 2s linear infinite;
+  animation: spin1 2s linear infinite;
+  
+}
+
+
+
+@-webkit-keyframes spin1{
+  100%{-webkit-transform: rotateY(360deg);}
+  /*100%{-webkit-transform: rotateX(360deg);}*/
+}
+@-moz-keyframes spin1{
+  100%{-webkit-transform: rotateY(360deg);}
+  /*100%{-webkit-transform: rotateX(360deg);}*/
+}
+@keyframes spin1{
+100%{-webkit-transform: rotateY(360deg);}
+/*100%{-webkit-transform: rotatex(360deg);}*/
 }
