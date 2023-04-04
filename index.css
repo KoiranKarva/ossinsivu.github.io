@@ -27,11 +27,6 @@ body {
   animation-direction: alternate;
 }
 
-
-
-
-
-
 body {
   background-color: #333;
   font-family: 'Luckiest Guy', cursive;
@@ -114,16 +109,13 @@ h1 span {
   position: absolute;
   }
 
-/*48*/
-
-
 
 h2 {
-  font-size: 750px;
+  font-size: 680px;
 }
 
 h3 {
-  font-size: 400px;
+  font-size: 350px;
 }
 
 p {
@@ -135,18 +127,23 @@ p {
 #ampari {
   height: 1000px;
   width: 1000px;
-  margin-left: 700px;
+  margin-left: 720px;
   -webkit-animation: spin 2s linear infinite;
   -moz-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+
 }
 
+
 @-webkit-keyframes spin{
-    100%{-webkit-transform: rotate(360deg);}
+    100%{-webkit-transform: rotateX(360deg);}
+    /*100%{-webkit-transform: rotateX(360deg);}*/
 }
 @-moz-keyframes spin{
-    100%{-webkit-transform: rotate(360deg);}
+    100%{-webkit-transform: rotateX(360deg);}
+    /*100%{-webkit-transform: rotateX(360deg);}*/
 }
 @keyframes spin{
-  100%{-webkit-transform: rotate(360deg);}
+  100%{-webkit-transform: rotateX(360deg);}
+  /*100%{-webkit-transform: rotatex(360deg);}*/
 }
