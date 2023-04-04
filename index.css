@@ -20,16 +20,82 @@
   }
 }
 
-body {
+/*body {
   -webkit-animation: bgcolor 2s infinite;
   animation: bgcolor 1s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
+*/
 
-h1 {
-  font-size: 300px;
 
+
+
+
+/*body {
+  background-color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}*/
+
+
+h1 span {
+  font-size: 300px ;
+  transform-origin: bottom;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 2000px;
+  width: 50px;
+  left: 50;
+  top: 50;
+  position: absolute;
+  }
+  .c1 {
+  transform: rotate(6deg);
+  color: violet;
+  }
+  .c2 {
+  transform: rotate(12deg);
+  color: indigo;
+  }
+  .c3 {
+  transform: rotate(18deg);
+  color: blue;
+  }
+  .c4 {
+  transform: rotate(24deg);
+  color: green;
+  }
+  .c5 {
+  transform: rotate(30deg);
+  color: yellow;
+  }
+  .c6 {
+  transform: rotate(36deg);
+  color: orange;
+  }
+  .c7 {
+  transform: rotate(43deg);
+  color: red;
+  }
+  .c8 {
+  transform: rotate(48deg);
+  color: purple;
+  }
+
+
+
+
+
+h2 {
+  font-size: 500px;
 }
 
 p {
@@ -37,6 +103,20 @@ p {
 }
 
 #ampari {
-  width: 500px;
-  height: 500px;
+  height: 1000px;
+  width: 1000px;
+  margin: -60px 0 0 150px;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
 }
