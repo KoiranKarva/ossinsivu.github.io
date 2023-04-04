@@ -154,7 +154,7 @@ p {
 
 #griffin {
   height: 1000px;
-  margin-top: 10x;
+  margin-top: 0px;
   position: absolute;
   -webkit-animation: spin1 2s linear infinite;
   -moz-animation: spin1 2s linear infinite;
