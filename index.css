@@ -35,3 +35,8 @@ h1 {
 p {
   font-size: 100px;
 }
+
+#ampari {
+  width: 500px;
+  height: 500px;
+}
